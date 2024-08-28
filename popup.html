@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Quality Setter</title>
+    <style>
+      body {
+        width: 250px;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+      h3 {
+        margin-top: 0;
+        color: #cc0000;
+        font-size: 18px;
+      }
+      select {
+        width: 100%;
+        margin-top: 15px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: white;
+        font-size: 14px;
+      }
+      select:focus {
+        outline: none;
+        border-color: #cc0000;
+        box-shadow: 0 0 5px rgba(204, 0, 0, 0.3);
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Select Preferred Quality</h3>
+    <select id="qualitySelector">
+      <option value="auto">Auto</option>
+      <option value="144p">144p</option>
+      <option value="240p">240p</option>
+      <option value="360p">360p</option>
+      <option value="480p">480p</option>
+      <option value="720p">720p</option>
+      <option value="1080p">1080p</option>
+      <option value="1440p">1440p</option>
+      <option value="2160p">2160p</option>
+    </select>
+    <script src="popup.js"></script>
+  </body>
+</html>
